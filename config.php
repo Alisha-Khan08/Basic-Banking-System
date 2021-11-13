@@ -1,14 +1,21 @@
-<?php
+<?php # Script 9.2 mysqli connect.phip
 
-	$servername = "localhost";
-	$username = "root";
-	$password = "";
-	$dbname = "Indian_bank";
 
-	$conn = mysqli_connect($servername, $username, $password, $dbname);
+define('DB_USER', 'id17931319_root');
 
-	if(!$conn){
-		die("Could not connect to the database due to the following error --> ".mysqli_connect_error());
-	}
+define('DB_PASSWORD', '8IP&fY?$F}2Rsjdo');
+
+define('DB_HOST', 'localhost');
+
+define('DB_NAME','id17931319_indian_bank');
+
+
+ // Make the connection:
+
+$conn = @mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME) OR die('Could not connect to the databases'.mysqli_connect_error());
+
+
+
+mysqli_set_charset($conn, 'utf8');
 
 ?>
