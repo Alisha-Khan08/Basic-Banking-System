@@ -1,13 +1,15 @@
 # Basic-Banking-System
 
-Hello everyone! Hope you all are doing well. I am Alisha Khan currently working as a Web Development and Designing Intern in GRIP at The Sparks Foundation.
-This is the #task1 given to me. 
-Task 1 - Basic banking System Create a simple dynamic website which has the following specs.
+Basic banking System a simple dynamic website.
 
-1.Start with creating a dummy data in database for upto 10 customers. Database options: Mysql, Mongo, Postgres, etc. Customers table will have basic fields such as name,email, current balance etc. Transfers table will record all transfers happened.
+The main objective of the project is to develop online Banking system for banks. This Website is used to transfer money between two parties and keep a record of their all transaction and activities
 
-2.Flow: Home Page > View all Customers > Select and View one Customer > Transfer Money > Select customer to transfer to > View all Customers .
+Flow: Home Page > View all Customers > Select and View one Customer > Transfer Money > Select customer to transfer to > View all Customers .
 
-3.No Login Page. No User Creation. Only transfer of money between multiple users.
-
-4.Host the website at 000webhost, github.io, heroku app or any other free hosting provider. Check in code in gitlab. The repository contains all the details of the website. #GRIPJUN21 #TheSparksFoundation
+TECH STACK-
+Front-end : HTML, CSS, Bootstrap & Javascript 
+Back-end : PHP 
+Database : MySQL
+Backend language:- PHP
+Cloud Hosting Platform :- 000webhostapp.com
+Database used: MySQL (PhpMyAdmin)
